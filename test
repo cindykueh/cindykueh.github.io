@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My First Bootstrap Project</title>
+    <link rel="stylesheet" href="css/bootstrap.css"  type="text/css"/>
+    <link rel="stylesheet" href="css/custom.css"  type="text/css"/>
+    <link rel="stylesheet" href="css/bootstrap-lightbox.css"  type="text/css"/>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-lightbox.js"></script>
+    <script src="js/custom.js"></script>
+  </head>
+  <body>
+    <div id="demoLightbox" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+      <div class='lightbox-content'>
+        <img src="image.png">
+        <div class="lightbox-caption"><p>Your caption here</p></div>
+      </div>
+    </div>
+    <a data-toggle="lightbox" href="#demoLightbox">Open Lightbox</a>
+  </body>
+</html>
