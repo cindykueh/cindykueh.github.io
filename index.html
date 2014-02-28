@@ -1,74 +1,105 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Cindykueh.github.io : " />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Cindykueh.github.io</title>
+    <meta charset="utf-8">
+    <title>My First Bootstrap Project</title>
+    <link rel="stylesheet" href="css/bootstrap.css"  type="text/css"/>
+    <link rel="stylesheet" href="css/custom.css"  type="text/css"/>
+    <link rel="stylesheet" href="css/bootstrap.lightbox.css"  type="text/css"/>
+    <link href="css/lightbox.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/lightbox-2.6.min.js"></script>
+    <script src="js/custom.js"></script>
   </head>
-
   <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/cindykueh">View on GitHub</a>
-
-          <h1 id="project_title">Cindykueh.github.io</h1>
-          <h2 id="project_tagline"></h2>
-
-        </header>
+    <div class="featured">
+      <div class="featured-bg"></div>
+      <div class="featured-content">
+        <div class="container">
+          <h1>Cindy K.</h1>
+          <h2>UI/UX Designer and Junior Front End Developer</h2>
+          <a href="#" class="btn-view" id="btn-view">View My Work</a>
+        </div>
+      </div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+    <div class="content quote">
+      <h2>Simplicity is the ultimate sophistication</h2>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
+    <div class="content portfolio" id="portfolio">
+      <div class="container">
+        <h3>My Work</h3>
+        <div id="collage">
+          <a href="images/flyerdetailsfront.jpg" data-lightbox="image-1" title="A product catalogue for Frontier International">
+            <img src="images/slice_11.png" />
+            <div class="desc">
+              <p>Frontier International Branding and Flyer Design</p>
+              <span class="btn-view portfolio">View</span>
+            </div>
+          </a>
+          <a href="images/cover.jpg" data-lightbox="image-2" title="DVD Cover for the annual Malaysian Cultural Night at Penn State University">
+            <img src="images/slice_06.png" />
+            <div class="desc">
+              <p>Malaysian Cultural Night DVD cover</p>
+              <span class="btn-view portfolio">View</span>
+            </div>
+          </a>
+          <a href="images/front2a.jpg" data-lightbox="image-3" title="Frontier opening ceremony invite">
+            <img src="images/slice_18.png"/>
+            <div class="desc">
+              <p>Opening Ceremony Invite</p>
+              <span class="btn-view portfolio">View</span>
+            </div>
+          </a>
+          <a href="images/msuwebby.jpg" data-lightbox="image-4" title="Website for PSU Malaysian Students Club. Done with Dreamweaver">
+            <img src="images/slice_02.png" />
+            <div class="desc">
+              <p>PSU Malaysian Students Club 2012/2013 Website</p>
+              <span class="btn-view portfolio">View</span>
+            </div>              
+          </a>
+          <a href="images/bookmark.jpg" data-lightbox="image-5" title="Frontier International bookmark emphasizing on an anti-aging product called En23.">
+            <img src="images/slice_04.png" />
+            <div class="desc">
+              <p>Frontier International Branding: Bookmark</p>
+              <span class="btn-view portfolio">View</span>
+            </div>              
+          </a>
+          <a href="images/coatofarmsFINAL.jpg" data-lightbox="image-6" title="Logo for the PSU MSC">
+            <img src="images/slice_20.png" />
+            <div class="desc">
+              <p>PSU MSC logo</p>
+              <span class="btn-view portfolio">View</span>
+            </div>              
+          </a>
+          <a href="images/a3.jpg" data-lightbox="image-7" title="Woman: Inspired by Petra Dufkova">
+            <img src="images/slice_12.png" />
+            <div class="desc">
+              <p>Portrait of a woman</p>
+              <span class="btn-view portfolio">View</span>
+            </div>              
+          </a>
+          <a href="images/a2.jpg" data-lightbox="image-8" title="Wolf drawing">
+            <img src="images/slice_19.png" />
+            <div class="desc">
+              <p>Wolf</p>
+              <span class="btn-view portfolio">View</span>
+            </div>              
+          </a>
+          <a href="images/a1.jpg" data-lightbox="image-9" title="Meryl Streep">
+            <img src="images/slice_14.png" />
+            <div class="desc">
+              <p>An attempt on Meryl Streep</p>
+              <span class="btn-view portfolio">View</span>
+            </div>              
+          </a>
+        </div>
+      </div>
+      <a href="mailto:qdkueh@hotmail.com" class="btn-contact">
+        <img src="images/hireme.png"/>
+      </a>
+    </div> 
   </body>
 </html>
